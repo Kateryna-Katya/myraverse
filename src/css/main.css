@@ -52,11 +52,11 @@
     background-image: url("/img/home/disclaimer-mob.png");
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: 375px 615px;
+    background-size: 100% 615px;
     padding: 200px 39px 40px;
    left: 0;
 
-   width: 375px;
+
    height: auto;
 }
 .disclaimer-title{
@@ -388,7 +388,7 @@ font-weight: 900;
 /* BATTLEFIELD DYNAMICS */
 .battle-container{
     position: relative;
-    padding-bottom: 300px;
+    padding-bottom: 350px;
 }
 .battle-subtitle{
     margin-top: 16px;
