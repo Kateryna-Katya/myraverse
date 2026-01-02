@@ -25,3 +25,34 @@
         </div>
     </div>
 </section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <h2 class="visually-hidden">NUKE WORLD</h2>
+        <div class="demo-wrapper">
+            <picture>
+                <source srcset="
+                /img/demo/game-desk.png 1x,
+                /img/demo/game-desk@2x.png 2x
+                " media="(min-width: 1439px)" />
+                <source srcset="
+                /img/demo/game-mob.png  1x,
+                /img/demo/game-mob@2x.png 2x
+                " media="(max-width: 1438px)" />
+                <img class="game-img" src="/img/demo/game-mob.png" alt="NUKE WORLD" loading="lazy" />
+            </picture>
+
+
+            <div class="iframe-wrapper">
+                <iframe id="gameIframe"></iframe>
+
+                <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+                    <img src="/img/demo/close.png" alt="Close">
+                </button>
+            </div>
+        </div>
+        <a class="demo-btn" href="#" data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/nukeworld"
+            target="gameIframe">
+           <p class="demo-text">Play free</p>
+        </a>
+    </div>
+</section>
