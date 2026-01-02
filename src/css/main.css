@@ -1,0 +1,124 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 803px;
+    position: relative;
+}
+.home-container{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-titlle{
+    font-family: "Raleway", sans-serif;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 1.125;
+        color: #fff;
+}
+.home-one-text{
+    margin-top: 14px;
+    margin-bottom: 24px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 28px;
+        line-height: 1.42857;
+        color: #fffcfc;
+}
+.home-two-text{
+    font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: 19px;
+        line-height: 1.05263;
+        color: #fffcfc;
+}
+.home-link{
+    display: inline-block;
+    margin-top: 40px;
+    background: linear-gradient(180deg, #ff5e21 7.5%, #f91 100%);
+    border: 0.50px solid #fff;
+        border-radius: 14px;
+        padding: 20px 56px;
+        width: 329px;
+        height: 63px;
+        margin-bottom: 102px;
+}
+
+
+.discklaimer-wrapper{
+    position: absolute;
+    background-image: url("/img/home/disclaimer-mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 375px 615px;
+    padding: 200px 39px 40px;
+   left: 0;
+
+   width: 375px;
+   height: auto;
+}
+.disclaimer-title{
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 1.33333;
+        color: #f91;
+}
+.disclaimer-text{
+    margin-top: 10px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        color: #fff;
+}
+.pangolin{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+.home-section{
+    background-image: url("/img/home/desk.png");
+    background-size: 100% 1024px;
+    height: 1024px;
+}
+.home-titlle{
+    margin-top: 80px;
+}
+.home-container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.home-wrapper{
+    width: 798px;
+}
+.home-one-text{
+    margin-top: 48px;
+}
+.home-link{
+    margin-bottom: 66px;
+}
+.pangolin{
+    position: absolute;
+    display: block;
+    right: 10px;
+    bottom: 30%;
+}
+.discklaimer-wrapper{
+    background-image: url("/img/home/disclaimer-desk.png");
+    width: 1260px;
+        height: 278px;
+        background-size: cover;
+    left: 42%;
+    top: 65%;
+    transform: translateX(-40%);
+    padding: 80px 39px 35px;
+}
+.disclaimer-title{
+    margin-left: 560px;
+}
+.disclaimer-text{
+    width: 636px;
+    margin-left: 560px;
+}
+}
