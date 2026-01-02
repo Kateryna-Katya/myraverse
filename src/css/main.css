@@ -301,3 +301,85 @@ font-weight: 900;
    
     }
 }
+/* back */
+.back-section{
+    background-image: url("/img/back/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 147px;
+}
+@media only screen and (min-width: 1440px) {
+ .back-section{
+    background-image: url("/img/back/desk.png");
+    height: 564px;
+ }
+}
+/* HEROES & ENEMIES */
+.heroes-title{
+    font-weight: 900;
+        font-size: 64px;
+        line-height: 1.25;
+        margin-bottom: 16px;
+}
+.heroes-subtitle{
+    margin-bottom: 47px;
+}
+.heroes-img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.slide-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 0.45377;
+        text-transform: uppercase;
+        text-align: center;
+        color: #f91;
+}
+.slide-text{
+    width: 258px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Raleway", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.13442;
+        text-align: center;
+        color: #4034eb;
+}
+@media only screen and (min-width: 1440px) {
+    .heroes-container{
+        padding-top: 100px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .heroes-img{
+        width: 620px;
+            height: 500px;
+    }
+        .heroes-swiper {
+            overflow: hidden;
+        }
+    
+        /* базово всі слайди трохи прозорі */
+        .heroes-swiper .swiper-slide {
+            opacity: 0.5;
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+    
+        /* активний (центральний) */
+        .heroes-swiper .swiper-slide-active {
+            opacity: 1;
+        }
+        .heroes-title{
+            margin-left: 110px;
+        }
+        .heroes-subtitle{
+            margin-left: 110px;
+        }
+}
