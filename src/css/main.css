@@ -1,16 +1,17 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top 70px center;
     background-size: 100% 803px;
     position: relative;
-    height: 1346px;
+    height: 1418px;
 }
 .home-container{
     padding-left: 20px;
     padding-right: 20px;
 }
 .home-titlle{
+    margin-top: 72px;
     font-family: "Raleway", sans-serif;
         font-weight: 900;
         font-size: 64px;
@@ -81,6 +82,7 @@
 .home-section{
     background-image: url("/img/home/desk.png");
     background-size: 100% 1024px;
+    background-position: top center;
     height: 1024px;
 }
 .home-titlle{
