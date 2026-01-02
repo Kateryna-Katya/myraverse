@@ -383,3 +383,37 @@ font-weight: 900;
             margin-left: 110px;
         }
 }
+/* BATTLEFIELD DYNAMICS */
+.battle-container{
+    position: relative;
+    padding-bottom: 300px;
+}
+.battle-subtitle{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.battle-img-one{
+    position: absolute;
+    z-index: 3;
+}
+.battle-img-two{
+    position: absolute;
+    z-index: 2;
+}
+@media only screen and (min-width: 1440px) {
+    .battle-wrapper{
+        width: 810px;
+    }
+    .battle-container{
+        padding-top: 100px;
+        padding-bottom: 67px;
+    }
+    .battle-img-one{
+right: 17%;
+top: 30%;
+    }
+    .battle-img-two{
+        right: 0px;
+        top: 0;
+    }
+}
