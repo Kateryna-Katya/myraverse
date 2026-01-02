@@ -4,7 +4,8 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 999;
-  background: #fff;
+  box-shadow: 0 4px 12px 0 rgba(49, 28, 143, 0.5);
+    background: #fff;
   height: 72px;
   width: 100%;
 
